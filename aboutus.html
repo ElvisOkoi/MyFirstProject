@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="project.css">
+    <meta name="description" content="This is the about us page. It tells you all about our goals for Universality gym.">
+    <style>
+        form { color: white;
+               background: rgba(0, 0, 0, 0.6);
+               font-style: italic;
+               padding: 10px;
+               max-width: 400px;
+            margin-left: 20px;	}
+        label { float: left;
+                width: 100px; 
+                clear: left;
+                text-align: right; 
+                padding-right: 10px;
+                margin-top: 10px; }
+        input, textarea { margin-top: 10px; 
+                          display: block;} 
+        #mySubmit { margin-left: 110px; }
+        </style>
+</head>
+
+<body id="us">
+
+    <div class="navbar">
+        <img src="ulogo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="follow.html">Follow Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </div>
+
+    <div class="us">
+        <h1>Universality Fitness: Your Path to Holistic Well-Being</h1>
+        <p>Founded with a vision to promote inclusivity and comprehensive health, Universality Fitness is more than just
+            a gym; it’s a community hub dedicated to transforming lives through fitness. Established in 2024, our
+            center is rooted in the belief that fitness is for everyone, regardless of age, ability, or fitness level.
+            <br>At Universality Fitness, we offer a wide range of programs designed to cater to the diverse needs of our
+            members. From high-intensity interval training (HIIT) to calming yoga sessions, our expertly trained
+            instructors provide guidance and support to help you achieve your personal fitness goals. We pride ourselves
+            on creating a welcoming environment where individuals can feel empowered to push their limits and embrace
+            their unique fitness journeys.
+            <br>Our state-of-the-art facilities include top-of-the-line equipment, spacious workout areas, and dedicated
+            spaces for group classes. We also offer personalized training sessions and wellness programs that focus on
+            nutrition, mental health, and overall well-being.
+            <br>Universality Fitness is committed to fostering a sense of community through various events, workshops,
+            and challenges. We believe in the power of teamwork and motivation, and our members often form lasting
+            friendships as they support each other on their fitness paths.
+            <br>Join us at Universality Fitness, where we celebrate diversity, promote healthy living, and inspire
+            everyone to become the best version of themselves. Together, let’s redefine what fitness means for you!
+        </p>
+    </div>
+
+    <div class="forms">
+        <h2>If you have any questions or issues regarding our fitness center, please do reach out to us, your experience matters to us.</h2>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="myName">Name:</label>
+            <input type="text" name="myName" id="myName">
+            <label for="myEmail">E-mail:</label>
+            <input type="text" name="myEmail" id="myEmail">
+            <label for="myDate">Start Date</label>
+            <input type="date" name="myDate" id="myDate">
+            <label for="myExperience">Experience:</label>
+            <textarea name="myExperience" id="myExperience" rows="2" cols="20"></textarea>
+            <input id="mySubmit" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2024 Universality Fitness<br>
+            <a href="mailto:eokoi1@my.westga.edu">eokoi1@my.westga.edu</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
