@@ -1,0 +1,90 @@
+body {
+    font-style: italic;
+    /**font-weight: bolder;**/
+}
+
+#nav {
+    background-color: rgb(0, 204, 255);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.hero {
+    background: url('dumbell.jpg') center center/cover no-repeat;
+    height: 400px;
+}
+
+.gym {
+    background-image: url('Gym.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            max-width: max-content;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+
+.pool {
+    background-image: url('water.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            max-width: max-content;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+
+.yoga {
+    background-image: url('yoga.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            max-width: max-content;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+
+.play {
+    background-image: url('play.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            max-width: max-content;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+
+#reviews {
+    background: url('review.jpg') center center/cover no-repeat;
+    height: 400px;
+}
+
+#pricing {
+    background: url('money.jpg') center center/cover no-repeat;
+    height: 400px;
+}
+
+#contact {
+    background: url('question.jpg') center center/cover no-repeat;
+    height: 400px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+#footer {
+    background-color: rgb(0, 204, 255);
+}
